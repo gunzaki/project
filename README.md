@@ -3,7 +3,7 @@ import java.time.format.DateTimeFormatter;
 import java.time.format.DateTimeParseException;
 import java.util.Scanner;
 
-public class AgeCalc {
+public class Main {
 
     public static int calculateAge(LocalDate birthDate) {
         LocalDate today = LocalDate.now();
